@@ -1,11 +1,9 @@
 import streamlit as st
-import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 # Download VADER lexicon for sentiment analysis
 @st.cache_resource
-def download_vader():
-    nltk.download('vader_lexicon')
+
 
 download_vader()
 
