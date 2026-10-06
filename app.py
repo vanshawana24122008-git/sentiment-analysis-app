@@ -4,9 +4,6 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 # Download VADER lexicon for sentiment analysis
 @st.cache_resource
 
-
-download_vader()
-
 # Initialize sentiment analyzer
 sia = SentimentIntensityAnalyzer()
 
